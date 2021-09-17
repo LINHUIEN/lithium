@@ -11,7 +11,7 @@ realpath() {
 PREFIX=$(realpath $1)
 
 DIR=`mktemp -d`
-git clone https://github.com/matt-42/lithium.git $DIR
+git clone https://github.com.cnpmjs.org/matt-42/lithium.git $DIR
 cd $DIR;
 
 
